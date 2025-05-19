@@ -1,0 +1,20 @@
+h3{
+            text-align: right;
+        }
+        address{
+            text-align: right;
+        }
+        .text1{
+            text-align: right;
+        }
+        h2{
+            font-family: "Bad Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: underline;
+        }
+        .text2{
+            font-family: "Bad Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
