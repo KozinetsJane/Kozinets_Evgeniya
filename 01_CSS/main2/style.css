@@ -12,9 +12,11 @@ h3{
             font-weight: 400;
             font-style: normal;
             text-decoration: underline;
+            text-indent: 2%; 
         }
         .text2{
             font-family: "Bad Script", cursive;
             font-weight: 400;
             font-style: normal;
+            text-indent: 2%;
         }
