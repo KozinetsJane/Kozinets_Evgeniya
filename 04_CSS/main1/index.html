@@ -21,8 +21,18 @@
             font-weight: normal;
             font-size: smaller;
         }
-
-
+        .right {
+            float: right;
+        }
+        .hidden {
+           display: none;
+        }
+        a:hover {
+           position:relative;
+        }
+        ul a:hover+img {
+           display: block;
+        }
     </style>
 </head>
 <body>
@@ -48,9 +58,12 @@
     </p>
     <ul>
         Это список файлов
-        <li><a href="https://ru.wikipedia.org/wiki/Microsoft_Word">Документ MS Word</a></li>
-        <li><a href="https://ru.wikipedia.org/wiki/Portable_Document_Format">Документ PDF</a></li>
-        <li><a href="https://ru.wikipedia.org/wiki/ZIP">Архив</a></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Microsoft_Word">Документ MS Word</a>
+        <img class="right hidden"  height="25" width="25" src="ms-world.jpg"></li>
+        <li><a href="https://ru.wikipedia.org/wiki/Portable_Document_Format">Документ PDF</a>
+        <img class="right hidden"  height="25" width="25" src="pdf.png"></li>
+        <li><a href="https://ru.wikipedia.org/wiki/ZIP">Архив</a>
+        <img class="right hidden"  height="25" width="25" src="zip.gif"></li>
     </ul>
 
 </body>
