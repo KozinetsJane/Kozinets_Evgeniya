@@ -10,10 +10,6 @@
             padding: 0%;
             box-sizing: border-box;
         }
-        .header{
-            background-color: greenyellow;
-            height: 50px;
-        }
         .menu{
             background-color:yellow;
             float: left;
@@ -23,11 +19,11 @@
         .content{
             background-color:aqua;
         }
-        .banner{
-            background-color:pink;
-            float: right;
-            width: 200px;
-            height: 300px;
+        .content-item1{
+            margin-bottom: 2em;
+        }
+        .content-item2{
+            margin-bottom: 2em;
         }
         .footer{
             background-color: gray;
@@ -36,18 +32,36 @@
         .wrap{
             background-color: blueviolet;
         }
+        .img{
+            float: right;
+            background-color:transparent;
+        }
+        .rasporka{
+            height: 0%;
+            clear: both;
+        }
         .clear{
-            height: 10px;
+            height: 0%;
             clear:both;
         }
     </style>
 </head>
 <body>
-    <div class="header">header</div>
     <div class="wrap">
         <div class="menu">menu</div>
-        <div class="banner">banner</div>
-        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores molestias dolore ex ea fuga? Deserunt exercitationem doloribus enim corrupti eveniet asperiores, sapiente repellendus reiciendis beatae eum. Rerum accusantium quod repudiandae.</div>
+        <div class="content">
+            <div class="content-item1">
+                <h3>Статья 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci, dolorum vel consequatur nobis sequi impedit nulla sed soluta, maiores perspiciatis cum molestias quibusdam placeat voluptas repudiandae quasi architecto ut.</p>
+            </div>
+            <div class="content-item2">
+                <h3>Статья 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ex qui labore, dolorum ea provident soluta fuga porro nostrum. A neque veniam consequuntur quod impedit reiciendis non eveniet sequi doloribus.</p>
+                <div id="element"></div>
+                <div class="img"><img src="images.png" width="70px"></div>
+                <div class="rasporka"></div>
+            </div>
+        </div>
         <div class="clear"></div>
     </div>
     
